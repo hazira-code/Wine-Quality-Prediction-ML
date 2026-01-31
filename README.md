@@ -4,11 +4,11 @@ From Chemistry to Cheers
 Wine Quality Intelligence using Machine Learning
 
 An end-to-end Machine Learning project that transforms laboratory chemical measurements into meaningful wine quality predictions. This system classifies wine as Good or Bad, simulating how data-driven models can support quality assessment in real-world production and resale scenarios.
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🎯 Project Goal
 
 To design a robust binary classification system that predicts wine quality while demonstrating the complete Machine Learning workflow—from raw data exploration to optimized, deployment-ready models.
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🧠 Problem Definition
 
 Learning Approach: Supervised Learning
@@ -21,6 +21,7 @@ Class Mapping
 Label	Description
 1	Good Wine (quality ≥ 7)
 0	Bad Wine (quality < 7)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📊 Dataset Snapshot
 
 Physicochemical attributes such as acidity, pH, alcohol content, etc.
@@ -32,6 +33,7 @@ No missing values
 Naturally imbalanced target classes
 
 Ideal for statistical analysis and ML modeling
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🔍 Exploratory Data Analysis
 
@@ -46,6 +48,7 @@ Feature scaling differences
 Relationships between chemical properties
 
 Visual insights directly influenced preprocessing choices and model selection.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ⚙️ Data Preparation Pipeline
 
@@ -56,6 +59,7 @@ Feature and target separation
 Feature standardization using StandardScaler
 
 Scikit-learn Pipelines to ensure reproducibility and prevent data leakage
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🤖 Models Evaluated
 
@@ -72,6 +76,7 @@ Random Forest
 Support Vector Machine (SVM)
 
 All models were evaluated using identical metrics for fair comparison.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📈 Performance Evaluation
 
@@ -84,6 +89,7 @@ Precision, Recall, F1-Score
 Cross-validation performance
 
 These metrics ensured both correctness and stability across unseen data.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🧪 Model Optimization
 
@@ -96,6 +102,7 @@ Integrated with Pipelines
 Reduced overfitting and improved generalization
 
 The final model was selected based on validation performance, not just test accuracy.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🏆 Final Outcome
 
@@ -104,6 +111,7 @@ Best-performing model identified through systematic benchmarking
 Tuned classifier achieved stronger and more consistent predictions
 
 Final pipeline is ready for deployment or extension (API / Web App)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🛠️ Tools & Technologies
 
@@ -116,6 +124,7 @@ Visualization: Matplotlib, Seaborn
 Machine Learning: Scikit-learn
 
 Optimization: Pipelines, GridSearchCV
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📁 Repository Structure
 ├── wine_quality_prediction.py
@@ -124,6 +133,7 @@ Optimization: Pipelines, GridSearchCV
 ├── quality_distribution.png
 ├── binary_classification.png
 └── README.md
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🌱 Future Enhancements
 
